@@ -12,7 +12,7 @@ module.exports = function (app) {
       .get(Album.get_catalog);
 
 
-   app.route('/artistes/:offset/:limit')
+   app.route('/artists/:offset/:limit')
       .get(Artiste.list_all_artists);
 
 }
